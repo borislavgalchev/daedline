@@ -1,0 +1,15 @@
+TODO:
+1. daedline help as arg
+2. daedline <deadline-date> -edit-text (with gum to change the output text)
+Example:
+351 days before your birthday!
+3. add daedline in /usr/bin/ or /usr/local/bin so it can be ran dirrectly in the terminal without path
+4. guide how-to add the function when the terminal is set up:
+Example:
+bindsym $mod+t exec alacritty -e zsh -c 'daedline 2026-01-01 && zsh'
+5. Push to github.
+6. Write documentation and how to set up.
+
+Bonus:
+Check how to publish it as a package so it could be downloaded with pacman/yay or other package managers
+
